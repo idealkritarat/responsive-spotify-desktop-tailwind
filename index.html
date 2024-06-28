@@ -65,16 +65,16 @@
             </span>
         </div>
     </nav>
-    <main class="grid grid-cols-4 h-full w-full">
-        <div class="col-span-1 bg-[#121212]">
-            <div class="flex justify-between p-3 items-center">
+    <main class="flex lg:grid grid-cols-4 grid-flow-col w-full h-[calc(100vh-168px)] px-2 gap-2">
+        <div class="col-span-1 bg-[#121212] h-[calc(100vh-168)] rounded-lg">
+            <div class="flex justify-center lg:justify-between p-3 items-center">
                 <div class="flex items-center  gap-2 group cursor-pointer">
                     <span class="material-symbols-outlined text-[#A7A7A7] group-hover:text-white transition-all">
                         queue_music
                     </span>
-                    <span class="font-bold text-[#A7A7A7] group-hover:text-white transition-all">Your Library</span>
+                    <span class="font-bold text-[#A7A7A7] group-hover:text-white transition-all lg:inline hidden">Your Library</span>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="lg:flex hidden items-center gap-2">
                     <span class="material-symbols-outlined text-[#A7A7A7] cursor-pointer hover:bg-[#242424] rounded-[50%] p-0.5">
                         add
                     </span>
@@ -83,7 +83,7 @@
                     </span>
                 </div>
             </div>
-            <div class="flex items-center pe-2 gap-2 overflow-hidden mx-3">
+            <div class="lg:flex hidden items-center pe-2 gap-2 overflow-hidden mx-3">
                 <div class="text-white bg-[#232323] px-3 py-1.5 text-[14px] rounded-full">
                     Playlist
                 </div>
@@ -97,11 +97,104 @@
                     Artists
                 </div>
             </div>
+            <div class="flex flex-col gap-3 overflow-y-scroll lg:h-[calc(100vh-273px)] h-[calc(100vh-168px)] px-2">
+                <div class="lg:flex hidden justify-between items-center p-4 pb-0">
+                    <span class="material-symbols-outlined text-[#A7A7A7] cursor-pointer hover:bg-[#242424] rounded-[50%] p-0.5">
+                        search
+                    </span>
+                    <div>
+                        <div class="flex items-center group hover:scale-105 cursor-pointer gap-1">
+                            <span class="text-[#A7A7A7] group-hover:text-white">Recents</span>
+                            <span class="material-symbols-outlined text-[#A7A7A7] cursor-pointer p-0.5 group-hover:text-white">
+                                list
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 flex-wrap px-3 rounded hover:bg-[#323232] cursor-pointer p-2">
+                    <div class="w-12 h-12 bg-[#242424] rounded"></div>
+                    <div class="flex-col lg:flex hidden">
+                        <span class="text-white text-sm">Sunflower</span>
+                        <span class="text-[#A7A7A6] text-xs">Rex Orange County</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-span-2"></div>
-        <div class="col-span-1"></div>
+        <div class="col-span-3 bg-[#121212] lg:h-[calc(100vh-168)] rounded-lg h-full w-full">
+            
+        </div>
     </main>
-    <footer class="bg-[#000] grid grid-cols-4 px-6 py-3 justify-between gap-2">
+    <footer class="bg-[#000] flex px-6 py-3 justify-between gap-5">
         <div class="flex items-center gap-3 flex-wrap">
             <div class="w-20 h-20 bg-[#242424] rounded"></div>
             <div class="lg:flex hidden items-center gap-3">
@@ -114,7 +207,7 @@
                 </span>
             </div>   
         </div>
-        <div class="flex flex-col items-center gap-2 col-span-2">
+        <div class="flex flex-col items-center gap-2 col-span-2 grow">
             <div class="flex gap-4 items-center">
                 <span class="material-symbols-outlined text-[#A7A7A7] hover:text-white cursor-pointer">
                     shuffle
