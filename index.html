@@ -67,20 +67,34 @@
     </nav>
     <main class="grid grid-cols-4 h-full w-full">
         <div class="col-span-1 bg-[#121212]">
-            <div class="flex justify-between">
-                <div class="flex items-center *:text-[#A7A7A7]">
-                    <span class="material-symbols-outlined">
+            <div class="flex justify-between p-3 items-center">
+                <div class="flex items-center  gap-2 group cursor-pointer">
+                    <span class="material-symbols-outlined text-[#A7A7A7] group-hover:text-white transition-all">
                         queue_music
                     </span>
-                    <span>Your Library</span>
+                    <span class="font-bold text-[#A7A7A7] group-hover:text-white transition-all">Your Library</span>
                 </div>
-                <div>
-                    <span class="material-symbols-outlined">
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[#A7A7A7] cursor-pointer hover:bg-[#242424] rounded-[50%] p-0.5">
                         add
                     </span>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined text-[#A7A7A7] cursor-pointer hover:bg-[#242424] rounded-[50%] p-0.5">
                         arrow_forward
                     </span>
+                </div>
+            </div>
+            <div class="flex items-center pe-2 gap-2 overflow-hidden mx-3">
+                <div class="text-white bg-[#232323] px-3 py-1.5 text-[14px] rounded-full">
+                    Playlist
+                </div>
+                <div class="text-white bg-[#232323] px-3 py-1.5 text-[14px] rounded-full">
+                    Podcasts
+                </div>
+                <div class="text-white bg-[#232323] px-3 py-1.5 text-[14px] rounded-full">
+                    Albums
+                </div>
+                <div class="text-white bg-[#232323] px-3 py-1.5 text-[14px] rounded-full">
+                    Artists
                 </div>
             </div>
         </div>
